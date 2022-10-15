@@ -1,0 +1,44 @@
+.pulamerda {
+  width: 800px;
+  height: 300px;
+  border: solid rgb(255, 0, 200);
+  margin: auto;
+}
+
+#pedrinho {
+  width: auto;
+  height: auto;
+  background-color: black;
+  background-image: url(pedrinho.gif);
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
+}
+
+.pular {
+  animation: pular 0.3s linear;
+}
+
+#merda {
+  width: 50;
+  height: 50;
+  background-image: url(merda.gif);
+  position: relative;
+}
+@keyframes pular {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 130px;
+  }
+  50% {
+    top: 80px;
+  }
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 150px;
+  }
+}
